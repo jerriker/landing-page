@@ -118,3 +118,48 @@ h2 {
   font-weight: bold;
   color: #1f2937;
 }
+.fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+.blue-container {
+  display: flex;
+  background-color: #3882f6;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100px;
+}
+.fourth-section-left,
+.fourth-section-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px;
+}
+.fourth-section-left {
+  width: 85%;
+}
+
+.fourth-section-button {
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  border: 3px solid white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+}
+h4 {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.p-fourth {
+  margin-top: 0;
+  color: #e5e7eb;
+}
