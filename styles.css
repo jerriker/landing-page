@@ -71,3 +71,31 @@ img {
   height: 200px;
   margin-right: 150px;
 }
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blue-box {
+  border: 3px solid #3882f6;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.p-second {
+  text-align: center;
+  padding: 20px;
+  color: hsl(0, 0%, 50%);
+}
